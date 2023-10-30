@@ -1,2 +1,2 @@
-# Bur-hesaplama
+# Burç-hesaplama
 javascript ile burç hesaplama
