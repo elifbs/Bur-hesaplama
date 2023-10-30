@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./image/arka_plan.pjeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        #input{
+            text-align: center;
+        }
+        input{
+            height: 30px;
+            border-radius: 5px;
+        }
+        button{
+            height: 40px;
+            border-radius: 5px;
+            font-weight:bold ;
+        }
+        #content{
+            color: white;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.3);
+            align-items: center;
+            margin-top: 100px;
+        }
+        img{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BURÇ HESAPLAMA</h1>
+    <div id="input">
+        <input id="day" type="number" placeholder="Gün giriniz">
+        <input id="moon" type="text" placeholder="Ay giriniz">
+        <button>Hesapla</button>
+    </div>
+    
+    <div id="content">
+        <h3 id="content_1">Doğum gün ve ayınızı girerek burcunuzu bulabilirsiniz</h3>
+        
+        <div id="burc_content">
+            <img id="image"> 
+            <h3 id="content_2"></h3>
+            <h2></h2>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
